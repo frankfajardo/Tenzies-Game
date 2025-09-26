@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0B2434;
+    font-family: Karla, sans-serif;
+}
+
+button {
+    font-weight: 700;
+    cursor: pointer;
+}

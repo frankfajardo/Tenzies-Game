@@ -1,0 +1,41 @@
+main {
+    margin: 80px auto;
+    padding: 60px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    width: 460px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.game-title {
+    margin-block: 0;
+}
+
+.game-instructions {
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+.dice-container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+}
+
+button.roll-dice {
+    height: 50px;
+    width: auto;
+    margin-block: 16px;
+    min-width: 100px;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF;
+    color: white;
+    font-size: 1.2rem;
+}
