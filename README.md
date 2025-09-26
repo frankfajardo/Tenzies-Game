@@ -2,20 +2,21 @@
 
 This is a game I developed as I was studying React via [Scrimba](https://scrimba.com/).
 
-It is called Tenzies. The game begins with 10 dices (hence the name Tenzies). 
+It is called Tenzies. 
 
 ## How to play the game:
 
-1. You roll the dice by pressing the *Roll* button below the dice.
-2. You can hold a die by pressing that die. Holding a die will stop it from being rolled so it stays with the same face up.
-3. As you roll the other dice, you hold the die/dices which match the other dice you already have held. Then you repeat this until all the dice are held with the same face up.
+1. The game begins with 10 dices (hence the name Tenzies). The aim is to reach a point where all 10 dice have the same face (number) and all are held (turned green).
+2. To start, first check if there is a a set of dice with same face (number). If there are multiple sets, choose a set with the highest number of dice. You hold those dice by clicking them (or tabbing to each die and pressing the `Space` bar). A held die is coloured green. You can un-hold a die by clicking it again (or pressing the `Space` bar again).
+3. Roll the remaining dice by clicking the *Roll* button.
+4. If any of the rolled dice end up having the same face (number) as the other held dice, you can also hold those dice so you have more held dice with the same face (number).
+5. Repeat steps 3 and 4 until all dice are the same face (number) and all are held.
 
 ## About the game
 
-This game is build using React, and with Vite as build tool.
+This game uses the React library.
 
 Some of the React topics covered in this game are:
-
 - JSX
 - Fragments
 - Props and State
